@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    cin >> x;
+
+    if(x>=0){
+        if(x>=0 && x<10)
+            cout << "brojot e ednocifren";
+
+        else if(x>=10 && x<100)
+            cout << "brojot e dvocifren";
+
+        else
+            cout << "brojot e pogolem od 99";
+    }
+    
+    // x==5, x!=5, x>5, x<5, x>=5, x<=5;
+
+}
